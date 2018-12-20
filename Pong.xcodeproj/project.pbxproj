@@ -7,14 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8782D34621CB85450022A0F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8782D34521CB85450022A0F6 /* AppDelegate.swift */; };
-		8782D34821CB85450022A0F6 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8782D34721CB85450022A0F6 /* GameScene.sks */; };
-		8782D34A21CB85450022A0F6 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8782D34921CB85450022A0F6 /* Actions.sks */; };
-		8782D34C21CB85450022A0F6 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8782D34B21CB85450022A0F6 /* GameScene.swift */; };
-		8782D34E21CB85450022A0F6 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8782D34D21CB85450022A0F6 /* GameViewController.swift */; };
-		8782D35121CB85450022A0F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8782D34F21CB85450022A0F6 /* Main.storyboard */; };
-		8782D35321CB85450022A0F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8782D35221CB85450022A0F6 /* Assets.xcassets */; };
-		8782D35621CB85450022A0F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8782D35421CB85450022A0F6 /* LaunchScreen.storyboard */; };
 		878AEA9B21CBA13E00BABCDE /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 878AEA9921CBA13E00BABCDE /* Interface.storyboard */; };
 		878AEA9D21CBA13E00BABCDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 878AEA9C21CBA13E00BABCDE /* Assets.xcassets */; };
 		878AEAA421CBA13E00BABCDE /* Pong For Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 878AEAA321CBA13E00BABCDE /* Pong For Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -24,8 +16,12 @@
 		878AEAAF21CBA13F00BABCDE /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878AEAAE21CBA13F00BABCDE /* ExtensionDelegate.swift */; };
 		878AEAB121CBA13F00BABCDE /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878AEAB021CBA13F00BABCDE /* NotificationController.swift */; };
 		878AEAB321CBA13F00BABCDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 878AEAB221CBA13F00BABCDE /* Assets.xcassets */; };
-		878AEAB821CBA13F00BABCDE /* Pong For Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 878AEA9721CBA13E00BABCDE /* Pong For Watch.app */; };
 		878AEAC221CBB14900BABCDE /* Ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 878AEAC121CBB14900BABCDE /* Ball.png */; };
+		87BD41F521CC2154001DBE48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BD41F421CC2154001DBE48 /* AppDelegate.swift */; };
+		87BD41F721CC2154001DBE48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BD41F621CC2154001DBE48 /* ViewController.swift */; };
+		87BD41FA21CC2154001DBE48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87BD41F821CC2154001DBE48 /* Main.storyboard */; };
+		87BD41FC21CC2156001DBE48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87BD41FB21CC2156001DBE48 /* Assets.xcassets */; };
+		87BD41FF21CC2156001DBE48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87BD41FD21CC2156001DBE48 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +31,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 878AEAA221CBA13E00BABCDE;
 			remoteInfo = "Pong For Watch Extension";
-		};
-		878AEAB621CBA13F00BABCDE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8782D33A21CB85450022A0F6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 878AEA9621CBA13E00BABCDE;
-			remoteInfo = "Pong For Watch";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -57,37 +46,16 @@
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		878AEAC021CBA13F00BABCDE /* Embed Watch Content */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
-			dstSubfolderSpec = 16;
-			files = (
-				878AEAB821CBA13F00BABCDE /* Pong For Watch.app in Embed Watch Content */,
-			);
-			name = "Embed Watch Content";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		8782D34221CB85450022A0F6 /* Pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pong.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8782D34521CB85450022A0F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8782D34721CB85450022A0F6 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		8782D34921CB85450022A0F6 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		8782D34B21CB85450022A0F6 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		8782D34D21CB85450022A0F6 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		8782D35021CB85450022A0F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8782D35221CB85450022A0F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8782D35521CB85450022A0F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8782D35721CB85450022A0F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		878AEA9721CBA13E00BABCDE /* Pong For Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pong For Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		878AEA9A21CBA13E00BABCDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		878AEA9C21CBA13E00BABCDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		878AEA9E21CBA13E00BABCDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		878AEAA321CBA13E00BABCDE /* Pong For Watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Pong For Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		878AEAA821CBA13E00BABCDE /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
-		878AEAAA21CBA13F00BABCDE /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		878AEAAA21CBA13F00BABCDE /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = GameScene.sks; path = "Pong For Watch Extension/GameScene.sks"; sourceTree = SOURCE_ROOT; };
 		878AEAAC21CBA13F00BABCDE /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		878AEAAE21CBA13F00BABCDE /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		878AEAB021CBA13F00BABCDE /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
@@ -95,17 +63,31 @@
 		878AEAB421CBA13F00BABCDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		878AEAB521CBA13F00BABCDE /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		878AEAC121CBB14900BABCDE /* Ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ball.png; sourceTree = "<group>"; };
+		87BD41DC21CC1CA4001DBE48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		87BD41DE21CC1CA4001DBE48 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		87BD41E021CC1CA4001DBE48 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		87BD41E321CC1CA4001DBE48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87BD41E521CC1CA7001DBE48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87BD41E821CC1CA7001DBE48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87BD41EA21CC1CA7001DBE48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87BD41F221CC2154001DBE48 /* pong2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pong2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87BD41F421CC2154001DBE48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		87BD41F621CC2154001DBE48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		87BD41F921CC2154001DBE48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87BD41FB21CC2156001DBE48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87BD41FE21CC2156001DBE48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87BD420021CC2156001DBE48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8782D33F21CB85450022A0F6 /* Frameworks */ = {
+		878AEAA021CBA13E00BABCDE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		878AEAA021CBA13E00BABCDE /* Frameworks */ = {
+		87BD41EF21CC2154001DBE48 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -118,9 +100,10 @@
 		8782D33921CB85450022A0F6 = {
 			isa = PBXGroup;
 			children = (
-				8782D34421CB85450022A0F6 /* Pong */,
 				878AEA9821CBA13E00BABCDE /* Pong For Watch */,
 				878AEAA721CBA13E00BABCDE /* Pong For Watch Extension */,
+				87BD41DB21CC1CA4001DBE48 /* Pong */,
+				87BD41F321CC2154001DBE48 /* pong2 */,
 				8782D34321CB85450022A0F6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -128,27 +111,11 @@
 		8782D34321CB85450022A0F6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8782D34221CB85450022A0F6 /* Pong.app */,
 				878AEA9721CBA13E00BABCDE /* Pong For Watch.app */,
 				878AEAA321CBA13E00BABCDE /* Pong For Watch Extension.appex */,
+				87BD41F221CC2154001DBE48 /* pong2.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		8782D34421CB85450022A0F6 /* Pong */ = {
-			isa = PBXGroup;
-			children = (
-				8782D34521CB85450022A0F6 /* AppDelegate.swift */,
-				8782D34721CB85450022A0F6 /* GameScene.sks */,
-				8782D34921CB85450022A0F6 /* Actions.sks */,
-				8782D34B21CB85450022A0F6 /* GameScene.swift */,
-				8782D34D21CB85450022A0F6 /* GameViewController.swift */,
-				8782D34F21CB85450022A0F6 /* Main.storyboard */,
-				8782D35221CB85450022A0F6 /* Assets.xcassets */,
-				8782D35421CB85450022A0F6 /* LaunchScreen.storyboard */,
-				8782D35721CB85450022A0F6 /* Info.plist */,
-			);
-			path = Pong;
 			sourceTree = "<group>";
 		};
 		878AEA9821CBA13E00BABCDE /* Pong For Watch */ = {
@@ -177,28 +144,36 @@
 			path = "Pong For Watch Extension";
 			sourceTree = "<group>";
 		};
+		87BD41DB21CC1CA4001DBE48 /* Pong */ = {
+			isa = PBXGroup;
+			children = (
+				87BD41DC21CC1CA4001DBE48 /* AppDelegate.swift */,
+				87BD41DE21CC1CA4001DBE48 /* GameScene.swift */,
+				87BD41E021CC1CA4001DBE48 /* GameViewController.swift */,
+				87BD41E221CC1CA4001DBE48 /* Main.storyboard */,
+				87BD41E521CC1CA7001DBE48 /* Assets.xcassets */,
+				87BD41E721CC1CA7001DBE48 /* LaunchScreen.storyboard */,
+				87BD41EA21CC1CA7001DBE48 /* Info.plist */,
+			);
+			path = Pong;
+			sourceTree = "<group>";
+		};
+		87BD41F321CC2154001DBE48 /* pong2 */ = {
+			isa = PBXGroup;
+			children = (
+				87BD41F421CC2154001DBE48 /* AppDelegate.swift */,
+				87BD41F621CC2154001DBE48 /* ViewController.swift */,
+				87BD41F821CC2154001DBE48 /* Main.storyboard */,
+				87BD41FB21CC2156001DBE48 /* Assets.xcassets */,
+				87BD41FD21CC2156001DBE48 /* LaunchScreen.storyboard */,
+				87BD420021CC2156001DBE48 /* Info.plist */,
+			);
+			path = pong2;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8782D34121CB85450022A0F6 /* Pong */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8782D35A21CB85450022A0F6 /* Build configuration list for PBXNativeTarget "Pong" */;
-			buildPhases = (
-				8782D33E21CB85450022A0F6 /* Sources */,
-				8782D33F21CB85450022A0F6 /* Frameworks */,
-				8782D34021CB85450022A0F6 /* Resources */,
-				878AEAC021CBA13F00BABCDE /* Embed Watch Content */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				878AEAB721CBA13F00BABCDE /* PBXTargetDependency */,
-			);
-			name = Pong;
-			productName = Pong;
-			productReference = 8782D34221CB85450022A0F6 /* Pong.app */;
-			productType = "com.apple.product-type.application";
-		};
 		878AEA9621CBA13E00BABCDE /* Pong For Watch */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 878AEABF21CBA13F00BABCDE /* Build configuration list for PBXNativeTarget "Pong For Watch" */;
@@ -233,6 +208,23 @@
 			productReference = 878AEAA321CBA13E00BABCDE /* Pong For Watch Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
+		87BD41F121CC2154001DBE48 /* pong2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87BD420121CC2156001DBE48 /* Build configuration list for PBXNativeTarget "pong2" */;
+			buildPhases = (
+				87BD41EE21CC2154001DBE48 /* Sources */,
+				87BD41EF21CC2154001DBE48 /* Frameworks */,
+				87BD41F021CC2154001DBE48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pong2;
+			productName = pong2;
+			productReference = 87BD41F221CC2154001DBE48 /* pong2.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -243,13 +235,13 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Phani Srikar";
 				TargetAttributes = {
-					8782D34121CB85450022A0F6 = {
-						CreatedOnToolsVersion = 10.1;
-					};
 					878AEA9621CBA13E00BABCDE = {
 						CreatedOnToolsVersion = 10.1;
 					};
 					878AEAA221CBA13E00BABCDE = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					87BD41F121CC2154001DBE48 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -267,26 +259,14 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8782D34121CB85450022A0F6 /* Pong */,
 				878AEA9621CBA13E00BABCDE /* Pong For Watch */,
 				878AEAA221CBA13E00BABCDE /* Pong For Watch Extension */,
+				87BD41F121CC2154001DBE48 /* pong2 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8782D34021CB85450022A0F6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8782D35121CB85450022A0F6 /* Main.storyboard in Resources */,
-				8782D34821CB85450022A0F6 /* GameScene.sks in Resources */,
-				8782D35321CB85450022A0F6 /* Assets.xcassets in Resources */,
-				8782D35621CB85450022A0F6 /* LaunchScreen.storyboard in Resources */,
-				8782D34A21CB85450022A0F6 /* Actions.sks in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		878AEA9521CBA13E00BABCDE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -306,19 +286,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		8782D33E21CB85450022A0F6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+		87BD41F021CC2154001DBE48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8782D34C21CB85450022A0F6 /* GameScene.swift in Sources */,
-				8782D34E21CB85450022A0F6 /* GameViewController.swift in Sources */,
-				8782D34621CB85450022A0F6 /* AppDelegate.swift in Sources */,
+				87BD41FF21CC2156001DBE48 /* LaunchScreen.storyboard in Resources */,
+				87BD41FC21CC2156001DBE48 /* Assets.xcassets in Resources */,
+				87BD41FA21CC2154001DBE48 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
 		878AEA9F21CBA13E00BABCDE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -330,6 +310,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		87BD41EE21CC2154001DBE48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87BD41F721CC2154001DBE48 /* ViewController.swift in Sources */,
+				87BD41F521CC2154001DBE48 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -338,36 +327,47 @@
 			target = 878AEAA221CBA13E00BABCDE /* Pong For Watch Extension */;
 			targetProxy = 878AEAA521CBA13E00BABCDE /* PBXContainerItemProxy */;
 		};
-		878AEAB721CBA13F00BABCDE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 878AEA9621CBA13E00BABCDE /* Pong For Watch */;
-			targetProxy = 878AEAB621CBA13F00BABCDE /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8782D34F21CB85450022A0F6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8782D35021CB85450022A0F6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8782D35421CB85450022A0F6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8782D35521CB85450022A0F6 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 		878AEA9921CBA13E00BABCDE /* Interface.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				878AEA9A21CBA13E00BABCDE /* Base */,
 			);
 			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		87BD41E221CC1CA4001DBE48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87BD41E321CC1CA4001DBE48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87BD41E721CC1CA7001DBE48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87BD41E821CC1CA7001DBE48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		87BD41F821CC2154001DBE48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87BD41F921CC2154001DBE48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87BD41FD21CC2156001DBE48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87BD41FE21CC2156001DBE48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -489,42 +489,6 @@
 			};
 			name = Release;
 		};
-		8782D35B21CB85450022A0F6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8HT35697U5;
-				INFOPLIST_FILE = Pong/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.PS.Pong;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		8782D35C21CB85450022A0F6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8HT35697U5;
-				INFOPLIST_FILE = Pong/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.PS.Pong;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		878AEAB921CBA13F00BABCDE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -607,6 +571,42 @@
 			};
 			name = Release;
 		};
+		87BD420221CC2156001DBE48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HT35697U5;
+				INFOPLIST_FILE = pong2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PS.pong2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87BD420321CC2156001DBE48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HT35697U5;
+				INFOPLIST_FILE = pong2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PS.pong2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -615,15 +615,6 @@
 			buildConfigurations = (
 				8782D35821CB85450022A0F6 /* Debug */,
 				8782D35921CB85450022A0F6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8782D35A21CB85450022A0F6 /* Build configuration list for PBXNativeTarget "Pong" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8782D35B21CB85450022A0F6 /* Debug */,
-				8782D35C21CB85450022A0F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -642,6 +633,15 @@
 			buildConfigurations = (
 				878AEAB921CBA13F00BABCDE /* Debug */,
 				878AEABA21CBA13F00BABCDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87BD420121CC2156001DBE48 /* Build configuration list for PBXNativeTarget "pong2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87BD420221CC2156001DBE48 /* Debug */,
+				87BD420321CC2156001DBE48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
