@@ -1,9 +1,9 @@
 //
 //  ViewController.swift
-//  pong2
+//  PongPhone
 //
-//  Created by Phani Srikar on 21/12/18.
-//  Copyright © 2018 Phani Srikar. All rights reserved.
+//  Created by Phani Srikar on 25/02/19.
+//  Copyright © 2019 Phani Srikar. All rights reserved.
 //
 
 import UIKit

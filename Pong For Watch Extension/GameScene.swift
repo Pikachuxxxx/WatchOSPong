@@ -29,12 +29,12 @@ class GameScene: SKScene ,WKCrownDelegate{
         ball.position.y = 0
         
 
-        ball = (self.childNode(withName: "Ball") as! SKSpriteNode)
-        enemy = (self.childNode(withName: "Enemy") as! SKSpriteNode)
-        user = (self.childNode(withName: "Player") as! SKSpriteNode)
+        self.ball = (self.childNode(withName: "Ball") as! SKSpriteNode)
+        self.enemy = (self.childNode(withName: "Enemy") as! SKSpriteNode)
+        self.user = (self.childNode(withName: "Player") as! SKSpriteNode)
         
-        PlayerScore = self.childNode(withName: "PlayerScore") as! SKLabelNode
-        EnemyScore = self.childNode(withName: "EnemyScore") as! SKLabelNode
+        self.PlayerScore = self.childNode(withName: "PlayerScore") as! SKLabelNode
+        self.EnemyScore = self.childNode(withName: "EnemyScore") as! SKLabelNode
         
         
         
@@ -45,8 +45,20 @@ class GameScene: SKScene ,WKCrownDelegate{
         border.restitution = 1
         self.physicsBody = border
         
-    PlayerScore.text = "HEL"
+        PlayerScore.text = "0"
+        EnemyScore.text = "0"
+        
+        
+        
       
+        
+        let winner = SKLabelNode(fontNamed: "Chalkduster")
+        winner.text = "You Win!"
+        winner.fontSize = 10
+        winner.fontColor = SKColor.green
+        winner.position = CGPoint(x: frame.midX, y: frame.midY)
+        
+        self.addChild(winner)
 
     }
     
@@ -64,7 +76,6 @@ class GameScene: SKScene ,WKCrownDelegate{
            
            
                 user.run(SKAction.moveTo(y: user.position.y + 60, duration: 0.2))
-            print("here :\(user.position.x)")
             if user.position.y >= 170
             {
                 MVDR = "STOP"
@@ -75,7 +86,6 @@ class GameScene: SKScene ,WKCrownDelegate{
         
         
             user.run(SKAction.moveTo(y: user.position.y - 60, duration: 0.2))
-                print("here :\(user.position.x)")
             if user.position.y <= -170
             {
                 MVDR = "STOP"
@@ -104,30 +114,17 @@ class GameScene: SKScene ,WKCrownDelegate{
             ball.position.x = 0
             ball.position.y = 0
             
-        }
-        
-        
-        
-        
-        
-        """
-        if ball.position.x > enemy.position.x + 5
-        {
-            ball.position.x = 0//self.ball.position.x + 10
-        }
-        
-        else ball.position.x < enemy.position.x + 5
-        {
-            ball.position.x = 0
-        }
-        
-        if (ball.physicsBody?.velocity.dx)! <= CGFloat(integerLiteral: 1)
-        {
-            ball.physicsBody?.velocity.dx = 4
-            ball.physicsBody?.velocity.dy = 4
+            PlayerScore.text = "0"
+            EnemyScore.text = "0"
+            
             
         }
-"""
+        else if ball.position.x >= enemy.position.x - 25
+        {
+            ball.position.x = 0
+            ball.position.y = 0
+        }
+    
         
 }
 }

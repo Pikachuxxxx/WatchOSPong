@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8775612921DA7D00007B7B4B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8775612821DA7D00007B7B4B /* Default-568h@2x.png */; };
+		877DE273222428FC00A9722B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877DE272222428FC00A9722B /* AppDelegate.swift */; };
+		877DE275222428FC00A9722B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877DE274222428FC00A9722B /* ViewController.swift */; };
+		877DE278222428FC00A9722B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 877DE276222428FC00A9722B /* Main.storyboard */; };
+		877DE27A2224290000A9722B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 877DE2792224290000A9722B /* Assets.xcassets */; };
+		877DE27D2224290000A9722B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 877DE27B2224290000A9722B /* LaunchScreen.storyboard */; };
 		878AEA9B21CBA13E00BABCDE /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 878AEA9921CBA13E00BABCDE /* Interface.storyboard */; };
 		878AEA9D21CBA13E00BABCDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 878AEA9C21CBA13E00BABCDE /* Assets.xcassets */; };
 		878AEAA421CBA13E00BABCDE /* Pong For Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 878AEAA321CBA13E00BABCDE /* Pong For Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -17,11 +23,7 @@
 		878AEAB121CBA13F00BABCDE /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878AEAB021CBA13F00BABCDE /* NotificationController.swift */; };
 		878AEAB321CBA13F00BABCDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 878AEAB221CBA13F00BABCDE /* Assets.xcassets */; };
 		878AEAC221CBB14900BABCDE /* Ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 878AEAC121CBB14900BABCDE /* Ball.png */; };
-		87BD41F521CC2154001DBE48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BD41F421CC2154001DBE48 /* AppDelegate.swift */; };
-		87BD41F721CC2154001DBE48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BD41F621CC2154001DBE48 /* ViewController.swift */; };
-		87BD41FA21CC2154001DBE48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87BD41F821CC2154001DBE48 /* Main.storyboard */; };
-		87BD41FC21CC2156001DBE48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87BD41FB21CC2156001DBE48 /* Assets.xcassets */; };
-		87BD41FF21CC2156001DBE48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87BD41FD21CC2156001DBE48 /* LaunchScreen.storyboard */; };
+		87FB1C5121E91BE8009C9B10 /* PongPlayer1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 87FB1C5021E91BE8009C9B10 /* PongPlayer1.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8775612821DA7D00007B7B4B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		877DE270222428FC00A9722B /* PongPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PongPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		877DE272222428FC00A9722B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		877DE274222428FC00A9722B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		877DE277222428FC00A9722B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		877DE2792224290000A9722B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		877DE27C2224290000A9722B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		877DE27E2224290000A9722B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		878AEA9721CBA13E00BABCDE /* Pong For Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pong For Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		878AEA9A21CBA13E00BABCDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		878AEA9C21CBA13E00BABCDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -63,23 +73,18 @@
 		878AEAB421CBA13F00BABCDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		878AEAB521CBA13F00BABCDE /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		878AEAC121CBB14900BABCDE /* Ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ball.png; sourceTree = "<group>"; };
-		87BD41DC21CC1CA4001DBE48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		87BD41DE21CC1CA4001DBE48 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		87BD41E021CC1CA4001DBE48 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		87BD41E321CC1CA4001DBE48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		87BD41E521CC1CA7001DBE48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		87BD41E821CC1CA7001DBE48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		87BD41EA21CC1CA7001DBE48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87BD41F221CC2154001DBE48 /* pong2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pong2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		87BD41F421CC2154001DBE48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		87BD41F621CC2154001DBE48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		87BD41F921CC2154001DBE48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		87BD41FB21CC2156001DBE48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		87BD41FE21CC2156001DBE48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		87BD420021CC2156001DBE48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87FB1C5021E91BE8009C9B10 /* PongPlayer1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = PongPlayer1.mlmodel; path = ../../../ML/PongPlayer1.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		877DE26D222428FC00A9722B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		878AEAA021CBA13E00BABCDE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -97,13 +102,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		877DE271222428FC00A9722B /* PongPhone */ = {
+			isa = PBXGroup;
+			children = (
+				877DE272222428FC00A9722B /* AppDelegate.swift */,
+				877DE274222428FC00A9722B /* ViewController.swift */,
+				877DE276222428FC00A9722B /* Main.storyboard */,
+				877DE2792224290000A9722B /* Assets.xcassets */,
+				877DE27B2224290000A9722B /* LaunchScreen.storyboard */,
+				877DE27E2224290000A9722B /* Info.plist */,
+			);
+			path = PongPhone;
+			sourceTree = "<group>";
+		};
 		8782D33921CB85450022A0F6 = {
 			isa = PBXGroup;
 			children = (
+				8775612821DA7D00007B7B4B /* Default-568h@2x.png */,
 				878AEA9821CBA13E00BABCDE /* Pong For Watch */,
 				878AEAA721CBA13E00BABCDE /* Pong For Watch Extension */,
-				87BD41DB21CC1CA4001DBE48 /* Pong */,
-				87BD41F321CC2154001DBE48 /* pong2 */,
+				877DE271222428FC00A9722B /* PongPhone */,
 				8782D34321CB85450022A0F6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -114,6 +132,7 @@
 				878AEA9721CBA13E00BABCDE /* Pong For Watch.app */,
 				878AEAA321CBA13E00BABCDE /* Pong For Watch Extension.appex */,
 				87BD41F221CC2154001DBE48 /* pong2.app */,
+				877DE270222428FC00A9722B /* PongPhone.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,6 +155,7 @@
 				878AEAAC21CBA13F00BABCDE /* GameScene.swift */,
 				878AEAAE21CBA13F00BABCDE /* ExtensionDelegate.swift */,
 				878AEAB021CBA13F00BABCDE /* NotificationController.swift */,
+				87FB1C5021E91BE8009C9B10 /* PongPlayer1.mlmodel */,
 				878AEAC121CBB14900BABCDE /* Ball.png */,
 				878AEAB221CBA13F00BABCDE /* Assets.xcassets */,
 				878AEAB421CBA13F00BABCDE /* Info.plist */,
@@ -144,36 +164,26 @@
 			path = "Pong For Watch Extension";
 			sourceTree = "<group>";
 		};
-		87BD41DB21CC1CA4001DBE48 /* Pong */ = {
-			isa = PBXGroup;
-			children = (
-				87BD41DC21CC1CA4001DBE48 /* AppDelegate.swift */,
-				87BD41DE21CC1CA4001DBE48 /* GameScene.swift */,
-				87BD41E021CC1CA4001DBE48 /* GameViewController.swift */,
-				87BD41E221CC1CA4001DBE48 /* Main.storyboard */,
-				87BD41E521CC1CA7001DBE48 /* Assets.xcassets */,
-				87BD41E721CC1CA7001DBE48 /* LaunchScreen.storyboard */,
-				87BD41EA21CC1CA7001DBE48 /* Info.plist */,
-			);
-			path = Pong;
-			sourceTree = "<group>";
-		};
-		87BD41F321CC2154001DBE48 /* pong2 */ = {
-			isa = PBXGroup;
-			children = (
-				87BD41F421CC2154001DBE48 /* AppDelegate.swift */,
-				87BD41F621CC2154001DBE48 /* ViewController.swift */,
-				87BD41F821CC2154001DBE48 /* Main.storyboard */,
-				87BD41FB21CC2156001DBE48 /* Assets.xcassets */,
-				87BD41FD21CC2156001DBE48 /* LaunchScreen.storyboard */,
-				87BD420021CC2156001DBE48 /* Info.plist */,
-			);
-			path = pong2;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		877DE26F222428FC00A9722B /* PongPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 877DE2812224290000A9722B /* Build configuration list for PBXNativeTarget "PongPhone" */;
+			buildPhases = (
+				877DE26C222428FC00A9722B /* Sources */,
+				877DE26D222428FC00A9722B /* Frameworks */,
+				877DE26E222428FC00A9722B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PongPhone;
+			productName = PongPhone;
+			productReference = 877DE270222428FC00A9722B /* PongPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
 		878AEA9621CBA13E00BABCDE /* Pong For Watch */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 878AEABF21CBA13F00BABCDE /* Build configuration list for PBXNativeTarget "Pong For Watch" */;
@@ -235,6 +245,9 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Phani Srikar";
 				TargetAttributes = {
+					877DE26F222428FC00A9722B = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					878AEA9621CBA13E00BABCDE = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -262,11 +275,22 @@
 				878AEA9621CBA13E00BABCDE /* Pong For Watch */,
 				878AEAA221CBA13E00BABCDE /* Pong For Watch Extension */,
 				87BD41F121CC2154001DBE48 /* pong2 */,
+				877DE26F222428FC00A9722B /* PongPhone */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		877DE26E222428FC00A9722B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877DE27D2224290000A9722B /* LaunchScreen.storyboard in Resources */,
+				877DE27A2224290000A9722B /* Assets.xcassets in Resources */,
+				877DE278222428FC00A9722B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		878AEA9521CBA13E00BABCDE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -290,19 +314,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87BD41FF21CC2156001DBE48 /* LaunchScreen.storyboard in Resources */,
-				87BD41FC21CC2156001DBE48 /* Assets.xcassets in Resources */,
-				87BD41FA21CC2154001DBE48 /* Main.storyboard in Resources */,
+				8775612921DA7D00007B7B4B /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		877DE26C222428FC00A9722B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877DE275222428FC00A9722B /* ViewController.swift in Sources */,
+				877DE273222428FC00A9722B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		878AEA9F21CBA13E00BABCDE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87FB1C5121E91BE8009C9B10 /* PongPlayer1.mlmodel in Sources */,
 				878AEAAD21CBA13F00BABCDE /* GameScene.swift in Sources */,
 				878AEAA921CBA13E00BABCDE /* InterfaceController.swift in Sources */,
 				878AEAB121CBA13F00BABCDE /* NotificationController.swift in Sources */,
@@ -314,8 +346,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87BD41F721CC2154001DBE48 /* ViewController.swift in Sources */,
-				87BD41F521CC2154001DBE48 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +360,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		877DE276222428FC00A9722B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				877DE277222428FC00A9722B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		877DE27B2224290000A9722B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				877DE27C2224290000A9722B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		878AEA9921CBA13E00BABCDE /* Interface.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -338,41 +384,47 @@
 			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
-		87BD41E221CC1CA4001DBE48 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				87BD41E321CC1CA4001DBE48 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		87BD41E721CC1CA7001DBE48 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				87BD41E821CC1CA7001DBE48 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		87BD41F821CC2154001DBE48 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				87BD41F921CC2154001DBE48 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		87BD41FD21CC2156001DBE48 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				87BD41FE21CC2156001DBE48 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		877DE27F2224290000A9722B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = PongPhone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PS.PongPhone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		877DE2802224290000A9722B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = PongPhone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PS.PongPhone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		8782D35821CB85450022A0F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -610,6 +662,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		877DE2812224290000A9722B /* Build configuration list for PBXNativeTarget "PongPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				877DE27F2224290000A9722B /* Debug */,
+				877DE2802224290000A9722B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8782D33D21CB85450022A0F6 /* Build configuration list for PBXProject "Pong" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
